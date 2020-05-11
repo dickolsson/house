@@ -1,0 +1,29 @@
+baseurl: http://www.sunnysouth.fr/
+languageCode: en-us
+title: "For sale: House in Fitou, South of France"
+theme: senzilla
+relativeURLs: true
+
+contentdir: content
+datadir: data
+layoutdir: layouts
+publishdir: public
+
+params:
+  author: Dick Olsson, Isabell Schulz
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      description: House sale in Fitou, South of France.
+      keywords: house sale, south france, fitou
+      footer: Copyright 2020
+  fr:
+    languageName: Français
+    weight: 2
+    params:
+      description: Maison à vendre à Fitou, Sud de la France.
+      keywords: vente maison, sud de la france, fitou
+      footer: Copyright 2020

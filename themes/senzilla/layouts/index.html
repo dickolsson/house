@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+		<div class="container">	
+			{{ partial "header.html" . }}
+			<div class="main">
+				{{ .Content }}
+				<div class="image-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+					{{ range $.Site.Data.items.items }}
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a href="{{.image}}" itemprop="contentUrl" data-size="{{.size}}">
+								<img src="{{.thumb}}" alt="{{.alt}}"/>
+							</a>
+							<figcaption itemprop="caption description">{{.description}}</figcaption>
+						</figure>
+					{{ end }}
+				</div>
+				<script>
+					initImageGallery('.image-gallery')
+				</script>
+			</div>
+			{{ partial "footer.html" . }}
+		</div>
+		{{ partial "scripts.html" . }}
+	</body>
+</html>
