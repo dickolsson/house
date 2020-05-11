@@ -1,0 +1,15 @@
+<div class="imagegallery-wrapper">
+  <div class="imagegallery" itemscope itemtype="http://schema.org/ImageGallery">
+    {{ range $.Site.Data.items.items }}
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="{{.image}}" itemprop="contentUrl" data-size="{{.size}}">
+        <img src="{{.thumb}}" alt="{{.alt}}"/>
+      </a>
+      <figcaption itemprop="caption description">{{.description}}</figcaption>
+    </figure>
+    {{ end }}
+  </div>
+  <script>
+    initImageGallery('.imagegallery')
+  </script>
+</div>
