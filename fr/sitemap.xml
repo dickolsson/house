@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.sunnysouth.fr/fr/pages/contact/</loc>
+    <lastmod>2020-02-01T16:11:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.sunnysouth.fr/pages/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.sunnysouth.fr/fr/pages/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.sunnysouth.fr/fr/pages/</loc>
+    <lastmod>2020-02-01T16:11:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.sunnysouth.fr/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.sunnysouth.fr/fr/pages/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.sunnysouth.fr/fr/</loc>
+    <lastmod>2020-02-01T16:11:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.sunnysouth.fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.sunnysouth.fr/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.sunnysouth.fr/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.sunnysouth.fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.sunnysouth.fr/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.sunnysouth.fr/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.sunnysouth.fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.sunnysouth.fr/fr/tags/"
+                />
+  </url>
+  
+</urlset>
