@@ -7,3 +7,7 @@ draft: false
 [Contact us](/pages/contact) for more details about the house.
 
 {{< imagegallery >}}
+
+{{< vimeo 409231607 >}}
+
+[Contact us](/pages/contact) to get the password to the video.
